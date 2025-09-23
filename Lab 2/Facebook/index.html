@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Facebook</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-fb px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <div class="logo-circle">f</div>
+        <span class="d-none d-md-inline fw-semibold">Facebook</span>
+      </a>
+
+      <form class="d-none d-md-flex ms-3 flex-grow-1" role="search">
+        <div class="input-group">
+          <span class="input-group-text bg-white border-0"><i class="bi bi-search"></i></span>
+          <input class="form-control form-control-sm border-0" type="search" placeholder="Search Facebook" aria-label="Search">
+        </div>
+      </form>
+
+      <div class="d-flex align-items-center ms-auto gap-2">
+        <button class="btn btn-sm btn-light d-flex align-items-center gap-2">
+          <i class="bi bi-grid-3x3-gap"></i>
+        </button>
+        <button class="btn btn-sm btn-light">
+          <i class="bi bi-messenger"></i>
+        </button>
+        <img src="https://i.pravatar.cc/40?img=12" alt="me" class="rounded-circle" width="36" height="36">
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <div class="row">
+
+      <aside class="col-lg-3 mb-3">
+        <div class="position-sticky" style="top:76px;">
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body p-2">
+              <a href="#" class="d-flex align-items-center gap-2 mb-3 text-decoration-none text-dark">
+                <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; color: white; font-weight: bold;">A</div>
+                <div>
+                  <div class="fw-semibold">Saif ur Rehman</div>
+                  <small class="text-muted">View profile</small>
+                </div>
+              </a>
+
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-house-door me-2 fs-5"></i> Home
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-people me-2 fs-5"></i> Friends
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-collection-play me-2 fs-5"></i> Watch
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-calendar3 me-2 fs-5"></i> Events
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-shop me-2 fs-5"></i> Marketplace
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-flag me-2 fs-5"></i> Pages
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-people-fill me-2 fs-5"></i> Groups
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body p-2">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <strong>Shortcuts</strong>
+                <small class="text-muted">Edit</small>
+              </div>
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-star me-2 fs-5 text-warning"></i> DevCir Club
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2">
+                  <i class="bi bi-envelope me-2 fs-5"></i> Internship
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="col-lg-6 mb-3">
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <div class="d-flex">
+              <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center me-2" style="width: 45px; height: 45px; color: white; font-weight: bold;">A</div>
+              <textarea class="form-control rounded-pill ps-3" rows="1" placeholder="What's on your mind, Saif?"></textarea>
+            </div>
+
+            <div class="d-flex gap-2 mt-3">
+              <button class="btn btn-light w-100 d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-camera-video fs-5 text-danger"></i> Live Video
+              </button>
+              <button class="btn btn-light w-100 d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-image fs-5 text-success"></i> Photo/Video
+              </button>
+              <button class="btn btn-light w-100 d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-emoji-smile fs-5 text-warning"></i> Feeling/Activity
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <article class="card mb-3 shadow-sm post">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-success d-flex align-items-center justify-content-center me-2" style="width: 50px; height: 50px; color: white; font-weight: bold;">A</div>
+              <div>
+                <div class="fw-semibold">Ali Ahmed</div>
+                <small class="text-muted">2 hrs · <i class="bi bi-globe"></i></small>
+              </div>
+            </div>
+
+            <p class="mt-2 mb-2">NASA's latest mission captured stunning images of Earth — the team is excited about upcoming data releases.</p>
+
+            <img src="https://picsum.photos/seed/p1/800/420" class="img-fluid rounded post-image" alt="post image">
+
+            <div class="d-flex justify-content-between mt-2 small text-muted">
+              <div><i class="bi bi-hand-thumbs-up-fill text-primary"></i> 1.2K</div>
+              <div>345 Comments · 78 Shares</div>
+            </div>
+
+            <hr class="my-2">
+
+            <div class="d-flex text-center">
+              <button class="btn btn-sm btn-light w-100"><i class="bi bi-hand-thumbs-up me-1"></i> Like</button>
+              <button class="btn btn-sm btn-light w-100"><i class="bi bi-chat-left me-1"></i> Comment</button>
+              <button class="btn btn-sm btn-light w-100"><i class="bi bi-share me-1"></i> Share</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card mb-3 shadow-sm post">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-warning d-flex align-items-center justify-content-center me-2" style="width: 50px; height: 50px; color: white; font-weight: bold;">B</div>
+              <div>
+                <div class="fw-semibold">Basit Khan</div>
+                <small class="text-muted">5 hrs · <i class="bi bi-people"></i></small>
+              </div>
+            </div>
+
+            <p class="mt-2 mb-2">Beautiful morning in the city — coffee + sunshine ☀️</p>
+            <img src="https://picsum.photos/seed/p2/800/420" class="img-fluid rounded post-image" alt="post image">
+
+            <div class="d-flex justify-content-between mt-2 small text-muted">
+              <div><i class="bi bi-hand-thumbs-up-fill text-primary"></i> 420</div>
+              <div>88 Comments · 9 Shares</div>
+            </div>
+
+            <hr class="my-2">
+
+            <div class="d-flex text-center">
+              <button class="btn btn-sm btn-light w-100"><i class="bi bi-hand-thumbs-up me-1"></i> Like</button>
+              <button class="btn btn-sm btn-light w-100"><i class="bi bi-chat-left me-1"></i> Comment</button>
+              <button class="btn btn-sm btn-light w-100"><i class="bi bi-share me-1"></i> Share</button>
+            </div>
+          </div>
+        </article>
+
+      </main>
+
+      <aside class="col-lg-3 mb-3">
+        <div class="position-sticky" style="top:76px;">
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body p-2">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <strong>Sponsored</strong>
+              </div>
+              <a href="#" class="text-decoration-none text-dark d-block">
+                <img src="https://picsum.photos/seed/ad1/300/150" class="img-fluid rounded mb-2" alt="ad">
+                <div class="small text-muted">Awesome product — limited offer.</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body p-2">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <strong>People You May Know</strong>
+                <small class="text-muted">See All</small>
+              </div>
+
+              <div class="d-flex align-items-center mb-2">
+                <div class="rounded-circle bg-info d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px; color: white; font-weight: bold;">H</div>
+                <div class="flex-grow-1">
+                  <div class="fw-medium">Hassan Ali</div>
+                  <small class="text-muted">12 mutual friends</small>
+                </div>
+                <button class="btn btn-sm btn-primary ms-2">Add</button>
+              </div>
+
+              <div class="d-flex align-items-center mb-2">
+                <div class="rounded-circle bg-danger d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px; color: white; font-weight: bold;">U</div>
+                <div class="flex-grow-1">
+                  <div class="fw-medium">Usman Shah</div>
+                  <small class="text-muted">3 mutual friends</small>
+                </div>
+                <button class="btn btn-sm btn-primary ms-2">Add</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-sm">
+            <div class="card-body p-2">
+              <strong>Contacts</strong>
+              <div class="mt-2 list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action py-2 d-flex align-items-center gap-2">
+                  <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width: 32px; height: 32px; color: white; font-weight: bold; font-size: 14px;">A</div> Ahmad
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2 d-flex align-items-center gap-2">
+                  <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 32px; height: 32px; color: white; font-weight: bold; font-size: 14px;">B</div> Basit
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
